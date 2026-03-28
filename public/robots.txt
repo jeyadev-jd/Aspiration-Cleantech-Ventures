@@ -1,0 +1,8 @@
+User-agent: *
+Allow: /
+
+# Prevent search engines from indexing the API or admin routes if any exist later
+Disallow: /api/
+Disallow: /admin/
+
+Sitemap: https://aspcv.com/sitemap.xml

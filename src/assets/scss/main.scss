@@ -1,0 +1,94 @@
+/*
+Theme Name: Sungo 
+Author: theme_ocean
+Author URI: https://themeforest.net/user/theme_ocean
+Description: Sungo - Ecology & Solar Energy HTML Template<
+Version: 1.0.0
+*/
+
+/*CSS Table Of Content Ends Here*/
+
+//>> Bootstrap <<//
+@use "bootstrap/dist/css/bootstrap.min.css";
+
+//>> Basic Start <<//
+
+
+//>> Mixins <<//
+@use "mixins" as *;
+//>> Variables <<//	
+@use "variables" as *;
+//>> Buttons <<//
+@use "buttons";
+//>> Typography <<//
+@use "typography";
+//>> Basic End <<//	
+
+@use "customDropdown";
+
+//>> Template Section Style Start <<//
+
+//>> About <<//
+@use "about";
+
+//>> Animation <<//
+@use "animation";
+
+//>> Brand <<//
+@use "brand";
+
+//>> Contact <<//
+@use "contact";
+
+//>> Cta <<//
+@use "cta";
+
+//>> Faq <<//
+@use "faq";
+
+//>> Feature <<//
+@use "feature";
+
+//>> Footer <<//
+@use "footer";
+
+//>> Header <<//
+@use "header";
+
+//>> Helping <<//
+@use "helping";
+
+//>> Hero <<//
+@use "hero";
+
+//>> Marquee <<//
+@use "marquee";
+
+//>> MeanMenu <<//
+@use "meanmenu";
+
+//>> News <<//
+@use "news";
+
+//>> Pricing <<//
+@use "pricing";
+
+//>> Preloader <<//
+@use "preloader";
+
+//>> Project <<//
+@use "project";
+
+//>> Section <<//
+@use "section";
+
+//>> Service <<//
+@use "service";
+
+//>> Team <<//
+@use "team";
+
+//>> Testimonial <<//
+@use "testimonial";
+
+//>> Template Section Style End <<//
