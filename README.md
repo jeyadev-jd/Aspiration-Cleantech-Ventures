@@ -1,41 +1,41 @@
-# Sungo – Ecology & Solar Energy HTML Template
-#### Preview
+# Aspiration Cleantech Ventures (ASPCV)
 
- - [Demo](https://themewagon.github.io/sungo/)
+A professional MERN stack application for Cleantech and Solar Energy solutions.
 
-#### Download
- - [Download from ThemeWagon](https://themewagon.com/themes/sungo/)
+## Technology Stack
+- **Frontend**: React, Vite, TypeScript, Bootstrap, Framer Motion
+- **Backend**: Node.js, Express, MongoDB/Mongoose
+- **Image Uploads**: Cloudinary
+- **Security**: JWT Authentication, Helmet, Rate Limiting, Sanitization
 
 ## Getting Started
 
-1. Clone Repository
-```
-git clone https://github.com/themewagon/sungo.git
-```
-2. Install Dependencies
-```
-npm i
-```
-3. Run the development server:
+### 1. Prerequisites
+Ensure you have Node.js and MongoDB installed.
 
+### 2. Configure Environment Variables
+- Create a `.env` file in the root directory (based on `.env.example`).
+- Create a `.env` file in the `backend/` directory (based on `backend/.env.example`).
+
+### 3. Install Dependencies
+Run from the root directory:
 ```bash
+npm install
+cd backend && npm install
+```
+
+### 4. Run the Application
+**Backend Server:**
+```bash
+cd backend
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-## Author 
+**Frontend Server:**
+```bash
+# In a new terminal
+npm run dev
 ```
-Design and code is completely written by theme_ocean and development team. 
-```
 
-## License
-
- - Design and Code is Copyright &copy; <a href="https://themeforest.net/user/theme_ocean" target="_blank">theme_ocean</a>
- - Licensed cover under [MIT]
- - Distributed by <a href="https://themewagon.com" target="_blank">ThemeWagon</a>
-
+## Admin Credentials
+Initial admin setup can be done using the `backend/seedAdmin.js` script or via the `/api/v1/auth/setup` endpoint.
